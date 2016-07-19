@@ -19,7 +19,7 @@ Assume you are working on a dragonboard410c with Debian, you’ve attached senso
 
 #### Run the Demo
 
-    $ cd Libsoc_Java-Demo
+    $ cd jni_Demo
     $ sudo java -Djava.library.path=. -jar jni_Demo.jar
 
 Tap the touch sensor with your finger. Tap the touch sensor several times in different speed (you can try tap very fast, or keep your finger on the touch sensor for several seconds and move away or any other speed).
