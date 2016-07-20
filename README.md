@@ -8,9 +8,9 @@ Assume you are working on a dragonboard410c with Debian, you’ve attached senso
 
 ---
 
-#### Download led_touch.jar
+#### Download libsoc_jni_demo.git
 
-    $ git clone https://github.com/LiveWang/jni_Demo.git<Enter>
+    $ git clone https://github.com/LiveWang/libsoc_jni_demo.git<Enter>
 
 #### Setup the Hardware
 
@@ -19,7 +19,7 @@ Assume you are working on a dragonboard410c with Debian, you’ve attached senso
 
 #### Run the Demo
 
-    $ cd jni_Demo
+    $ cd libsoc_jni_demo
     $ sudo java -Djava.library.path=. -jar jni_Demo.jar
 
 Tap the touch sensor with your finger. Tap the touch sensor several times in different speed (you can try tap very fast, or keep your finger on the touch sensor for several seconds and move away or any other speed).
